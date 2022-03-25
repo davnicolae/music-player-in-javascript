@@ -1,6 +1,8 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
 
+head {
+  background-color: red;
+}
 html {
   box-sizing: border-box;
 }
@@ -12,7 +14,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family:Festive, sans-serif;
+  font-family: Festive, sans-serif;
   font-size: 12px;
 }
 
@@ -21,7 +23,7 @@ body {
   width: 400px;
   background: #e6e6e6;
   border-radius: 20px;
-  box-shadow: 0 15px 30px 5px rgba(0,0,0, 0.3);
+  box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
 }
 
 .img-container {
@@ -37,7 +39,7 @@ body {
   width: 100%;
   object-fit: cover;
   border-radius: 20px;
-  box-shadow: 0 5px 30px 5px rgba(0,0,0, 0.6);
+  box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.6);
 }
 
 h2 {
@@ -54,7 +56,8 @@ h3 {
 }
 
 span {
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* Progress */
@@ -96,14 +99,11 @@ span {
   margin-right: 30px;
   cursor: pointer;
   user-select: none;
-
 }
 
 .fas:hover {
-  filter:brightness(80%);
+  filter: brightness(80%);
 }
-
-
 
 .main-button {
   font-size: 40px;
@@ -113,11 +113,9 @@ span {
 
 /* Media Query: iPhone (Vertical) */
 @media screen and (max-width: 376px) {
-
   .player-container {
     width: 95vw;
   }
-
 
   .img-container {
     left: 29px;
